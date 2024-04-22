@@ -153,7 +153,9 @@ fieldset legend img {
 }
 
 .content-box {
-    background-color: #080909;
+    background-color: rgba(192, 192, 192, 0.4);
+    border-radius: 4px;
+    box-shadow: 0 0 32px 0 rgba(12, 12, 13, .1), 0 2px 16px 0 rgba(12, 12, 13, .05);
     padding: 10px;
     margin-top: 20px;
     border: 1px solid #a6cef3;
