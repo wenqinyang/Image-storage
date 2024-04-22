@@ -24,6 +24,24 @@
     <link href="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/bootstrap-fileinput/5.5.2/css/fileinput.min.css" rel="stylesheet">
     <link href="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
+    <style>
+        #myVideo {
+
+            position: absolute;
+
+            right: 0;
+
+            bottom: 0;
+
+            min-width: 100%;
+
+            min-height: 100%;
+
+            z-index: -1;
+            /* 确保视频在框架最下层 */
+
+}
+    </style>
 </head>
 
 <body>
@@ -177,7 +195,9 @@
     <script src="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
 
     <script src="./asset/js/upload.js"></script>
-    
+    <video autoplay muted loop id="myVideo" preload="auto">
+        <source src="https://t.mwm.moe/acg/acg" type="video/mp4">
+    </video>
 </body>
 
 </html>
